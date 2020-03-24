@@ -8,10 +8,10 @@ import (
 	"testing"
 	"unsafe"
 
-	sqle "github.com/src-d/go-mysql-server"
-	"github.com/src-d/go-mysql-server/memory"
-	"github.com/src-d/go-mysql-server/sql"
 	"github.com/stretchr/testify/require"
+	sqle "github.com/xsec-lab/go-mysql-server"
+	"github.com/xsec-lab/go-mysql-server/memory"
+	"github.com/xsec-lab/go-mysql-server/sql"
 	"vitess.io/vitess/go/mysql"
 )
 

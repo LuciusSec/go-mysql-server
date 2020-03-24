@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/mitchellh/hashstructure"
-	"github.com/src-d/go-mysql-server/sql"
-	"github.com/src-d/go-mysql-server/sql/expression"
+	"github.com/xsec-lab/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/sql/expression"
 )
 
 // Count node to count how many rows are in the result set.

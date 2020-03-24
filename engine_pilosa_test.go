@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/src-d/go-mysql-server/sql"
-	"github.com/src-d/go-mysql-server/sql/index/pilosa"
-	"github.com/src-d/go-mysql-server/test"
+	"github.com/xsec-lab/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/sql/index/pilosa"
+	"github.com/xsec-lab/go-mysql-server/test"
 
 	"github.com/stretchr/testify/require"
 )

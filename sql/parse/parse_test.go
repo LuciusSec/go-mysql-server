@@ -4,13 +4,13 @@ import (
 	"math"
 	"testing"
 
-	"github.com/src-d/go-mysql-server/sql/expression"
-	"github.com/src-d/go-mysql-server/sql/expression/function/aggregation"
-	"github.com/src-d/go-mysql-server/sql/plan"
+	"github.com/xsec-lab/go-mysql-server/sql/expression"
+	"github.com/xsec-lab/go-mysql-server/sql/expression/function/aggregation"
+	"github.com/xsec-lab/go-mysql-server/sql/plan"
 	"gopkg.in/src-d/go-errors.v1"
 
-	"github.com/src-d/go-mysql-server/sql"
 	"github.com/stretchr/testify/require"
+	"github.com/xsec-lab/go-mysql-server/sql"
 )
 
 var fixtures = map[string]sql.Node{
@@ -55,14 +55,14 @@ var fixtures = map[string]sql.Node{
 		sql.UnresolvedDatabase(""),
 		"t1",
 		sql.Schema{{
-			Name:     "a",
-			Type:     sql.Int32,
-			Nullable: false,
+			Name:       "a",
+			Type:       sql.Int32,
+			Nullable:   false,
 			PrimaryKey: true,
 		}, {
-			Name:     "b",
-			Type:     sql.Text,
-			Nullable: true,
+			Name:       "b",
+			Type:       sql.Text,
+			Nullable:   true,
 			PrimaryKey: false,
 		}},
 	),
@@ -70,14 +70,14 @@ var fixtures = map[string]sql.Node{
 		sql.UnresolvedDatabase(""),
 		"t1",
 		sql.Schema{{
-			Name:     "a",
-			Type:     sql.Int32,
-			Nullable: true,
+			Name:       "a",
+			Type:       sql.Int32,
+			Nullable:   true,
 			PrimaryKey: true,
 		}, {
-			Name:     "b",
-			Type:     sql.Text,
-			Nullable: true,
+			Name:       "b",
+			Type:       sql.Text,
+			Nullable:   true,
 			PrimaryKey: false,
 		}},
 	),
@@ -85,14 +85,14 @@ var fixtures = map[string]sql.Node{
 		sql.UnresolvedDatabase(""),
 		"t1",
 		sql.Schema{{
-			Name:     "a",
-			Type:     sql.Int32,
-			Nullable: true,
+			Name:       "a",
+			Type:       sql.Int32,
+			Nullable:   true,
 			PrimaryKey: true,
 		}, {
-			Name:     "b",
-			Type:     sql.Text,
-			Nullable: true,
+			Name:       "b",
+			Type:       sql.Text,
+			Nullable:   true,
 			PrimaryKey: true,
 		}},
 	),

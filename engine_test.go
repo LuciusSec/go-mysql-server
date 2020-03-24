@@ -11,14 +11,14 @@ import (
 
 	"github.com/opentracing/opentracing-go"
 
-	sqle "github.com/src-d/go-mysql-server"
-	"github.com/src-d/go-mysql-server/auth"
-	"github.com/src-d/go-mysql-server/memory"
-	"github.com/src-d/go-mysql-server/sql"
-	"github.com/src-d/go-mysql-server/sql/analyzer"
-	"github.com/src-d/go-mysql-server/sql/parse"
-	"github.com/src-d/go-mysql-server/sql/plan"
-	"github.com/src-d/go-mysql-server/test"
+	sqle "github.com/xsec-lab/go-mysql-server"
+	"github.com/xsec-lab/go-mysql-server/auth"
+	"github.com/xsec-lab/go-mysql-server/memory"
+	"github.com/xsec-lab/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/sql/analyzer"
+	"github.com/xsec-lab/go-mysql-server/sql/parse"
+	"github.com/xsec-lab/go-mysql-server/sql/plan"
+	"github.com/xsec-lab/go-mysql-server/test"
 
 	"github.com/stretchr/testify/require"
 )
@@ -2994,7 +2994,7 @@ func TestPrintTree(t *testing.T) {
 	require.Equal(expectedTree, node.String())
 }
 
-// see: https://github.com/src-d/go-mysql-server/issues/197
+// see: https://github.com/xsec-lab/go-mysql-server/issues/197
 func TestStarPanic197(t *testing.T) {
 	require := require.New(t)
 	e := newEngine(t)

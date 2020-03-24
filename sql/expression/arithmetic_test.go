@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/src-d/go-mysql-server/sql"
 	"github.com/stretchr/testify/require"
+	"github.com/xsec-lab/go-mysql-server/sql"
 )
 
 func TestPlus(t *testing.T) {

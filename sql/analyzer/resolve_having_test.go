@@ -3,12 +3,12 @@ package analyzer
 import (
 	"testing"
 
-	"github.com/src-d/go-mysql-server/memory"
-	"github.com/src-d/go-mysql-server/sql"
-	"github.com/src-d/go-mysql-server/sql/expression"
-	"github.com/src-d/go-mysql-server/sql/expression/function/aggregation"
-	"github.com/src-d/go-mysql-server/sql/plan"
 	"github.com/stretchr/testify/require"
+	"github.com/xsec-lab/go-mysql-server/memory"
+	"github.com/xsec-lab/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/sql/expression"
+	"github.com/xsec-lab/go-mysql-server/sql/expression/function/aggregation"
+	"github.com/xsec-lab/go-mysql-server/sql/plan"
 	"gopkg.in/src-d/go-errors.v1"
 )
 

@@ -1,4 +1,4 @@
-module github.com/src-d/go-mysql-server/integration/go
+module github.com/xsec-lab/go-mysql-server/integration/go
 
 require (
 	github.com/go-sql-driver/mysql v1.4.0

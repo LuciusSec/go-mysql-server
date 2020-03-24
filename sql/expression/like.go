@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/src-d/go-mysql-server/internal/regex"
-	"github.com/src-d/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/internal/regex"
+	"github.com/xsec-lab/go-mysql-server/sql"
 )
 
 // Like performs pattern matching against two strings.

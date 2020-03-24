@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/src-d/go-mysql-server/sql"
-	"github.com/src-d/go-mysql-server/sql/expression"
+	"github.com/xsec-lab/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/sql/expression"
 )
 
 // DateAdd adds an interval to a date.

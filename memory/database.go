@@ -1,7 +1,7 @@
 package memory
 
 import (
-	"github.com/src-d/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/sql"
 )
 
 // Database is an in-memory database.
@@ -54,4 +54,3 @@ func (d *Database) DropTable(ctx *sql.Context, name string) error {
 	delete(d.tables, name)
 	return nil
 }
-

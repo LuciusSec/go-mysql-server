@@ -5,10 +5,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/src-d/go-mysql-server/internal/similartext"
-	"github.com/src-d/go-mysql-server/sql"
-	"github.com/src-d/go-mysql-server/sql/expression"
-	"github.com/src-d/go-mysql-server/sql/plan"
+	"github.com/xsec-lab/go-mysql-server/internal/similartext"
+	"github.com/xsec-lab/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/sql/expression"
+	"github.com/xsec-lab/go-mysql-server/sql/plan"
 	"gopkg.in/src-d/go-errors.v1"
 	"vitess.io/vitess/go/vt/sqlparser"
 )

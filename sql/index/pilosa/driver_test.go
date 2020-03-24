@@ -13,10 +13,10 @@ import (
 	"time"
 
 	"github.com/pilosa/pilosa"
-	"github.com/src-d/go-mysql-server/sql"
-	"github.com/src-d/go-mysql-server/sql/expression"
-	"github.com/src-d/go-mysql-server/test"
 	"github.com/stretchr/testify/require"
+	"github.com/xsec-lab/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/sql/expression"
+	"github.com/xsec-lab/go-mysql-server/test"
 )
 
 var tmpDir string

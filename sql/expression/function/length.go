@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"unicode/utf8"
 
-	"github.com/src-d/go-mysql-server/sql"
-	"github.com/src-d/go-mysql-server/sql/expression"
+	"github.com/xsec-lab/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/sql/expression"
 )
 
 // Length returns the length of a string or binary content, either in bytes

@@ -2,8 +2,8 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 <a href="https://travis-ci.com/src-d/go-mysql-server"><img alt="Build Status" src="https://travis-ci.com/src-d/go-mysql-server.svg?branch=master" /></a>
 <a href="https://codecov.io/gh/src-d/go-mysql-server"><img alt="codecov" src="https://codecov.io/gh/src-d/go-mysql-server/branch/master/graph/badge.svg" /></a>
-<a href="https://godoc.org/github.com/src-d/go-mysql-server"><img alt="GoDoc" src="https://godoc.org/github.com/src-d/go-mysql-server?status.svg" /></a>
-[![Issues](http://img.shields.io/github/issues/src-d/go-mysql-server.svg)](https://github.com/src-d/go-mysql-server/issues)
+<a href="https://godoc.org/github.com/xsec-lab/go-mysql-server"><img alt="GoDoc" src="https://godoc.org/github.com/xsec-lab/go-mysql-server?status.svg" /></a>
+[![Issues](http://img.shields.io/github/issues/src-d/go-mysql-server.svg)](https://github.com/xsec-lab/go-mysql-server/issues)
 
 **go-mysql-server** is a SQL engine which parses standard SQL (based on MySQL syntax), resolves and optimizes queries.
 It provides simple interfaces to allow custom tabular data source implementations.
@@ -29,21 +29,21 @@ What are not the goals of **go-mysql-server**:
 
 What's the use case of **go-mysql-server**?
 
-Having data in another format that you want as tabular data to query using SQL, such as git. As an example of this, we have [gitbase](https://github.com/src-d/gitbase).
+Having data in another format that you want as tabular data to query using SQL, such as git. As an example of this, we have [gitbase](https://github.com/xsec-lab/gitbase).
 
 ## Installation
 
-The import path for the package is `github.com/src-d/go-mysql-server`.
+The import path for the package is `github.com/xsec-lab/go-mysql-server`.
 
 To install it, run:
 
 ```
-go get github.com/src-d/go-mysql-server
+go get github.com/xsec-lab/go-mysql-server
 ```
 
 ## Documentation
 
-* [go-mysql-server godoc](https://godoc.org/github.com/src-d/go-mysql-server)
+* [go-mysql-server godoc](https://godoc.org/github.com/xsec-lab/go-mysql-server)
 
 
 ## SQL syntax
@@ -273,7 +273,7 @@ You can see a really simple data source implementation on our `mem` package.
 
 `go-mysql-server` exposes a series of interfaces to allow you to implement your own indexes so you can speedup your queries.
 
-Taking a look at the main [index interface](https://github.com/src-d/go-mysql-server/blob/master/sql/index.go#L35), you must note a couple of constraints:
+Taking a look at the main [index interface](https://github.com/xsec-lab/go-mysql-server/blob/master/sql/index.go#L35), you must note a couple of constraints:
 
 - This abstraction lets you create an index for multiple columns (one or more) or for **only one** expression (e.g. function applied on multiple columns).
 - If you want to index an expression that is not a column you will only be able to index **one and only one** expression at a time.
@@ -435,7 +435,7 @@ One _important note_ - internally we set some _labels_ for metrics, that's why h
 
 ## Powered by go-mysql-server
 
-* [gitbase](https://github.com/src-d/gitbase)
+* [gitbase](https://github.com/xsec-lab/gitbase)
 * [dolt](https://github.com/liquidata-inc/dolt)
 
 ## License

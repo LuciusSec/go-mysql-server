@@ -1,6 +1,6 @@
 package plan
 
-import "github.com/src-d/go-mysql-server/sql"
+import "github.com/xsec-lab/go-mysql-server/sql"
 
 // Rollback undoes the changes performed in a transaction.
 type Rollback struct{}

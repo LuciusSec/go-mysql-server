@@ -4,7 +4,7 @@ COMMANDS =
 UNAME_S := $(shell uname -s)
 
 # Including ci Makefile
-CI_REPOSITORY ?= https://github.com/src-d/ci.git
+CI_REPOSITORY ?= https://github.com/xsec-lab/ci.git
 CI_BRANCH ?= v1
 CI_PATH ?= .ci
 MAKEFILE := $(CI_PATH)/Makefile.main

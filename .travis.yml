@@ -1,5 +1,5 @@
 language: go
-go_import_path: github.com/src-d/go-mysql-server
+go_import_path: github.com/xsec-lab/go-mysql-server
 
 env:
   global:

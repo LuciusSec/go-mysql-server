@@ -5,7 +5,7 @@ import (
 
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/sirupsen/logrus"
-	"github.com/src-d/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/sql"
 	"gopkg.in/src-d/go-errors.v1"
 )
 

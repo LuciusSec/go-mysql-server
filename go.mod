@@ -1,4 +1,4 @@
-module github.com/src-d/go-mysql-server
+module github.com/xsec-lab/go-mysql-server
 
 require (
 	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect
@@ -18,7 +18,7 @@ require (
 	github.com/shirou/w32 v0.0.0-20160930032740-bb4de0191aa4 // indirect
 	github.com/sirupsen/logrus v1.3.0
 	github.com/spf13/cast v1.3.0
-	github.com/src-d/go-oniguruma v1.0.0
+	github.com/xsec-lab/go-oniguruma v1.0.0
 	github.com/stretchr/testify v1.3.0
 	go.etcd.io/bbolt v1.3.2
 	google.golang.org/grpc v1.19.0 // indirect

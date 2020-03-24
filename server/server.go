@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/opentracing/opentracing-go"
-	sqle "github.com/src-d/go-mysql-server"
-	"github.com/src-d/go-mysql-server/auth"
+	sqle "github.com/xsec-lab/go-mysql-server"
+	"github.com/xsec-lab/go-mysql-server/auth"
 
 	"vitess.io/vitess/go/mysql"
 )

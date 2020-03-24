@@ -10,14 +10,14 @@ import (
 	"os"
 	"testing"
 
-	sqle "github.com/src-d/go-mysql-server"
-	"github.com/src-d/go-mysql-server/auth"
-	"github.com/src-d/go-mysql-server/memory"
-	"github.com/src-d/go-mysql-server/server"
-	"github.com/src-d/go-mysql-server/sql"
-	"github.com/src-d/go-mysql-server/sql/analyzer"
-	"github.com/src-d/go-mysql-server/sql/index/pilosa"
 	"github.com/stretchr/testify/require"
+	sqle "github.com/xsec-lab/go-mysql-server"
+	"github.com/xsec-lab/go-mysql-server/auth"
+	"github.com/xsec-lab/go-mysql-server/memory"
+	"github.com/xsec-lab/go-mysql-server/server"
+	"github.com/xsec-lab/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/sql/analyzer"
+	"github.com/xsec-lab/go-mysql-server/sql/index/pilosa"
 )
 
 const port = 3336
