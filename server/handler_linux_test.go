@@ -8,7 +8,7 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"github.com/stretchr/testify/require"
 	"github.com/xsec-lab/go-mysql-server/sql"
-	"vitess.io/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/sqltypes"
 )
 
 func TestBrokenConnection(t *testing.T) {

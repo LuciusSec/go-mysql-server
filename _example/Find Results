@@ -1,0 +1,31 @@
+Searching 444 files for "go-oniguruma" (regex)
+
+/opt/data/code/golang/src/go-mysql-server/go.mod:
+   19  	github.com/sirupsen/logrus v1.3.0
+   20  	github.com/spf13/cast v1.3.0
+   21: 	github.com/src-d/go-oniguruma v1.0.0 // indirect
+   22  	github.com/stretchr/testify v1.3.0
+   23  	go.etcd.io/bbolt v1.3.2
+
+/opt/data/code/golang/src/go-mysql-server/go.sum:
+  118  github.com/spf13/pflag v1.0.3/go.mod h1:DYY7MBk1bdzusC3SYhjObp+wFpr4gzcvqqNjLnInEg4=
+  119  github.com/spf13/viper v1.3.1/go.mod h1:ZiWeW+zYFKm7srdB9IoDzzZXaJaI5eL9QjNiN/DMA2s=
+  120: github.com/src-d/go-oniguruma v1.0.0/go.mod h1:chVbff8kcVtmrhxtZ3yBVLLquXbzCS6DrxQaAK/CeqM=
+  121  github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
+  122  github.com/stretchr/objx v0.1.1/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
+  ...
+  131  github.com/ugorji/go/codec v0.0.0-20181204163529-d75b2dcb6bc8/go.mod h1:VFNgLljTbGfSG7qAOspJ7OScBnGdDN/yBr0sguwnwf0=
+  132  github.com/xordataexchange/crypt v0.0.3-0.20170626215501-b2862e3d0a77/go.mod h1:aYKd//L2LvnjZzWKhF00oedf4jCCReLcmhLdhm1A27Q=
+  133: github.com/xsec-lab/go-oniguruma v1.0.0 h1:JDk5PUAjreGsGAKLsoDLNmrsaryjJ5RqT3h+Si6aw/E=
+  134: github.com/xsec-lab/go-oniguruma v1.0.0/go.mod h1:chVbff8kcVtmrhxtZ3yBVLLquXbzCS6DrxQaAK/CeqM=
+  135  go.etcd.io/bbolt v1.3.2 h1:Z/90sZLPOeCy2PwprqkFa25PdkusRzaj9P8zm/KNyvk=
+  136  go.etcd.io/bbolt v1.3.2/go.mod h1:IbVyRI1SCnLcuJnV2u8VeU0CEYM7e686BmAb1XKL+uU=
+
+/opt/data/code/golang/src/go-mysql-server/internal/regex/regex_oniguruma.go:
+    6  	"time"
+    7  
+    8: 	rubex "github.com/src-d/go-oniguruma"
+    9  )
+   10  
+
+5 matches across 3 files

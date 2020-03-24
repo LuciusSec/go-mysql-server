@@ -7,7 +7,7 @@ import (
 	sqle "github.com/xsec-lab/go-mysql-server"
 	"github.com/xsec-lab/go-mysql-server/auth"
 
-	"vitess.io/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/mysql"
 )
 
 // Server is a MySQL server for SQLe engines.

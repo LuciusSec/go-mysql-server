@@ -12,7 +12,7 @@ import (
 	sqle "github.com/xsec-lab/go-mysql-server"
 	"github.com/xsec-lab/go-mysql-server/memory"
 	"github.com/xsec-lab/go-mysql-server/sql"
-	"vitess.io/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/mysql"
 )
 
 func setupMemDB(require *require.Assertions) *sqle.Engine {

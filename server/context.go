@@ -6,7 +6,7 @@ import (
 
 	"github.com/opentracing/opentracing-go"
 	"github.com/xsec-lab/go-mysql-server/sql"
-	"vitess.io/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/mysql"
 )
 
 // SessionBuilder creates sessions given a MySQL connection and a server address.

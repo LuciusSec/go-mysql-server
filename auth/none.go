@@ -3,7 +3,7 @@ package auth
 import (
 	"github.com/xsec-lab/go-mysql-server/sql"
 
-	"vitess.io/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/mysql"
 )
 
 // None is an Auth method that always succeeds.

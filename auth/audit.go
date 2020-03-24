@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/xsec-lab/go-mysql-server/sql"
-	"vitess.io/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/mysql"
 
 	"github.com/sirupsen/logrus"
 )

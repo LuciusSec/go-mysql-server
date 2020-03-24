@@ -5,7 +5,7 @@ package regex
 import (
 	"time"
 
-	rubex "github.com/xsec-lab/go-oniguruma"
+	rubex "github.com/src-d/go-oniguruma"
 )
 
 // Oniguruma holds a rubex regular expression Matcher.

@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/spf13/cast"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/proto/query"
 	"gopkg.in/src-d/go-errors.v1"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/proto/query"
 )
 
 var (

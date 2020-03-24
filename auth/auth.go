@@ -4,8 +4,8 @@ import (
 	"strings"
 
 	"github.com/xsec-lab/go-mysql-server/sql"
+	"github.com/xsec-lab/vitess/go/mysql"
 	"gopkg.in/src-d/go-errors.v1"
-	"vitess.io/vitess/go/mysql"
 )
 
 // Permission holds permissions required by a query or grated to a user.
