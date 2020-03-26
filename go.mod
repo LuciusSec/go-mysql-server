@@ -21,8 +21,6 @@ require (
 	github.com/src-d/go-oniguruma v1.0.0
 	github.com/stretchr/testify v1.3.0
 	github.com/xsec-lab/vitess v1.0.5
-	github.com/xsec-lab/vitess v3.0.0-rc.3+incompatible
-	github.com/youtube/vitess v2.1.1+incompatible // indirect
 	go.etcd.io/bbolt v1.3.2
 	google.golang.org/grpc v1.19.0 // indirect
 	gopkg.in/src-d/go-errors.v1 v1.0.0
