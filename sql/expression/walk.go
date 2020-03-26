@@ -1,6 +1,6 @@
 package expression
 
-import "github.com/src-d/go-mysql-server/sql"
+import "github.com/xsec-lab/go-mysql-server/sql"
 
 // Visitor visits exprs in the plan.
 type Visitor interface {

@@ -7,8 +7,8 @@ import (
 	"sync"
 
 	"github.com/pilosa/pilosa"
-	"github.com/src-d/go-mysql-server/sql"
-	"github.com/src-d/go-mysql-server/sql/index"
+	"github.com/xsec-lab/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/sql/index"
 	errors "gopkg.in/src-d/go-errors.v1"
 )
 

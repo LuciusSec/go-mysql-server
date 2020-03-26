@@ -4,8 +4,8 @@ import (
 	"strconv"
 
 	"github.com/go-kit/kit/metrics/discard"
-	"github.com/src-d/go-mysql-server/sql"
-	"github.com/src-d/go-mysql-server/sql/plan"
+	"github.com/xsec-lab/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/sql/plan"
 )
 
 var (

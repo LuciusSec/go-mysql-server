@@ -1,4 +1,4 @@
-package sqle // import "github.com/src-d/go-mysql-server"
+package sqle // import "github.com/xsec-lab/go-mysql-server"
 
 import (
 	"time"
@@ -6,12 +6,12 @@ import (
 	"github.com/go-kit/kit/metrics/discard"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/sirupsen/logrus"
-	"github.com/src-d/go-mysql-server/auth"
-	"github.com/src-d/go-mysql-server/sql"
-	"github.com/src-d/go-mysql-server/sql/analyzer"
-	"github.com/src-d/go-mysql-server/sql/expression/function"
-	"github.com/src-d/go-mysql-server/sql/parse"
-	"github.com/src-d/go-mysql-server/sql/plan"
+	"github.com/xsec-lab/go-mysql-server/auth"
+	"github.com/xsec-lab/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/sql/analyzer"
+	"github.com/xsec-lab/go-mysql-server/sql/expression/function"
+	"github.com/xsec-lab/go-mysql-server/sql/parse"
+	"github.com/xsec-lab/go-mysql-server/sql/plan"
 )
 
 // Config for the Engine.

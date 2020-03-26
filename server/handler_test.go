@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	sqle "github.com/src-d/go-mysql-server"
-	"github.com/src-d/go-mysql-server/sql"
+	sqle "github.com/xsec-lab/go-mysql-server"
+	"github.com/xsec-lab/go-mysql-server/sql"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/proto/query"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/proto/query"
 
 	"github.com/opentracing/opentracing-go"
 	"github.com/stretchr/testify/require"

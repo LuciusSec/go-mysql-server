@@ -9,14 +9,14 @@ import (
 	"testing"
 	"time"
 
-	sqle "github.com/src-d/go-mysql-server"
-	"github.com/src-d/go-mysql-server/auth"
-	"github.com/src-d/go-mysql-server/memory"
-	"github.com/src-d/go-mysql-server/sql"
-	"github.com/src-d/go-mysql-server/sql/analyzer"
-	"github.com/src-d/go-mysql-server/sql/parse"
-	"github.com/src-d/go-mysql-server/sql/plan"
-	"github.com/src-d/go-mysql-server/test"
+	sqle "github.com/xsec-lab/go-mysql-server"
+	"github.com/xsec-lab/go-mysql-server/auth"
+	"github.com/xsec-lab/go-mysql-server/memory"
+	"github.com/xsec-lab/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/sql/analyzer"
+	"github.com/xsec-lab/go-mysql-server/sql/parse"
+	"github.com/xsec-lab/go-mysql-server/sql/plan"
+	"github.com/xsec-lab/go-mysql-server/test"
 
 	"github.com/stretchr/testify/require"
 )
@@ -1901,7 +1901,7 @@ func TestInsertInto(t *testing.T) {
 			[]sql.Row{{int64(1)}},
 			"SELECT * FROM typestable WHERE id = 999;",
 			[]sql.Row{{
-				int64(999), int64(-math.MaxInt8-1), int64(-math.MaxInt16-1), int64(-math.MaxInt32-1), int64(-math.MaxInt64-1),
+				int64(999), int64(-math.MaxInt8 - 1), int64(-math.MaxInt16 - 1), int64(-math.MaxInt32 - 1), int64(-math.MaxInt64 - 1),
 				int64(0), int64(0), int64(0), int64(0),
 				float64(math.SmallestNonzeroFloat32), float64(math.SmallestNonzeroFloat64),
 				timeParse(sql.TimestampLayout, "0010-04-05 12:51:36"), timeParse(sql.DateLayout, "0101-11-07"),
@@ -1919,7 +1919,7 @@ func TestInsertInto(t *testing.T) {
 			[]sql.Row{{int64(1)}},
 			"SELECT * FROM typestable WHERE id = 999;",
 			[]sql.Row{{
-				int64(999), int64(-math.MaxInt8-1), int64(-math.MaxInt16-1), int64(-math.MaxInt32-1), int64(-math.MaxInt64-1),
+				int64(999), int64(-math.MaxInt8 - 1), int64(-math.MaxInt16 - 1), int64(-math.MaxInt32 - 1), int64(-math.MaxInt64 - 1),
 				int64(0), int64(0), int64(0), int64(0),
 				float64(math.SmallestNonzeroFloat32), float64(math.SmallestNonzeroFloat64),
 				timeParse(sql.TimestampLayout, "0010-04-05 12:51:36"), timeParse(sql.DateLayout, "0101-11-07"),
@@ -2101,7 +2101,7 @@ func TestReplaceInto(t *testing.T) {
 			[]sql.Row{{int64(1)}},
 			"SELECT * FROM typestable WHERE id = 999;",
 			[]sql.Row{{
-				int64(999), int64(-math.MaxInt8-1), int64(-math.MaxInt16-1), int64(-math.MaxInt32-1), int64(-math.MaxInt64-1),
+				int64(999), int64(-math.MaxInt8 - 1), int64(-math.MaxInt16 - 1), int64(-math.MaxInt32 - 1), int64(-math.MaxInt64 - 1),
 				int64(0), int64(0), int64(0), int64(0),
 				float64(math.SmallestNonzeroFloat32), float64(math.SmallestNonzeroFloat64),
 				timeParse(sql.TimestampLayout, "0010-04-05 12:51:36"), timeParse(sql.DateLayout, "0101-11-07"),
@@ -2119,7 +2119,7 @@ func TestReplaceInto(t *testing.T) {
 			[]sql.Row{{int64(1)}},
 			"SELECT * FROM typestable WHERE id = 999;",
 			[]sql.Row{{
-				int64(999), int64(-math.MaxInt8-1), int64(-math.MaxInt16-1), int64(-math.MaxInt32-1), int64(-math.MaxInt64-1),
+				int64(999), int64(-math.MaxInt8 - 1), int64(-math.MaxInt16 - 1), int64(-math.MaxInt32 - 1), int64(-math.MaxInt64 - 1),
 				int64(0), int64(0), int64(0), int64(0),
 				float64(math.SmallestNonzeroFloat32), float64(math.SmallestNonzeroFloat64),
 				timeParse(sql.TimestampLayout, "0010-04-05 12:51:36"), timeParse(sql.DateLayout, "0101-11-07"),
@@ -2743,7 +2743,7 @@ func TestPrintTree(t *testing.T) {
 	require.Equal(expectedTree, node.String())
 }
 
-// see: https://github.com/src-d/go-mysql-server/issues/197
+// see: https://github.com/xsec-lab/go-mysql-server/issues/197
 func TestStarPanic197(t *testing.T) {
 	require := require.New(t)
 	e := newEngine(t)

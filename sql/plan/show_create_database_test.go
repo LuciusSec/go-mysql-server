@@ -3,8 +3,8 @@ package plan
 import (
 	"testing"
 
-	"github.com/src-d/go-mysql-server/sql"
 	"github.com/stretchr/testify/require"
+	"github.com/xsec-lab/go-mysql-server/sql"
 )
 
 func TestShowCreateDatabase(t *testing.T) {

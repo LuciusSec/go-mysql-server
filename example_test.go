@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/src-d/go-mysql-server"
-	"github.com/src-d/go-mysql-server/memory"
-	"github.com/src-d/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server"
+	"github.com/xsec-lab/go-mysql-server/memory"
+	"github.com/xsec-lab/go-mysql-server/sql"
 )
 
 func Example() {

@@ -5,9 +5,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/src-d/go-mysql-server/internal/similartext"
+	"github.com/xsec-lab/go-mysql-server/internal/similartext"
 
-	"github.com/src-d/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/sql"
 )
 
 // ShowCreateTable is a node that shows the CREATE TABLE statement for a table.

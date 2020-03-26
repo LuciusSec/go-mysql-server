@@ -1,9 +1,9 @@
-package sqle // import "github.com/src-d/go-mysql-server"
+package sqle // import "github.com/xsec-lab/go-mysql-server"
 
 import (
 	"github.com/golang/glog"
 	"github.com/sirupsen/logrus"
-	vtlog "vitess.io/vitess/go/vt/log"
+	vtlog "github.com/xsec-lab/vitess/go/vt/log"
 )
 
 func init() {

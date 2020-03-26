@@ -3,10 +3,10 @@ package analyzer
 import (
 	"strings"
 
-	"github.com/src-d/go-mysql-server/sql"
-	"github.com/src-d/go-mysql-server/sql/expression"
-	"github.com/src-d/go-mysql-server/sql/expression/function"
-	"github.com/src-d/go-mysql-server/sql/plan"
+	"github.com/xsec-lab/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/sql/expression"
+	"github.com/xsec-lab/go-mysql-server/sql/expression/function"
+	"github.com/xsec-lab/go-mysql-server/sql/plan"
 	"gopkg.in/src-d/go-errors.v1"
 )
 

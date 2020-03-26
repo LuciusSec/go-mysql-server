@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/src-d/go-mysql-server/sql"
-	"github.com/src-d/go-mysql-server/sql/expression"
-	"vitess.io/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/sql/expression"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
 )
 
 // Set configuration variables. Right now, only session variables are supported.

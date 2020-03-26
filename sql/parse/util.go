@@ -9,9 +9,9 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/src-d/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/sql"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
 	errors "gopkg.in/src-d/go-errors.v1"
-	"vitess.io/vitess/go/vt/sqlparser"
 )
 
 var (

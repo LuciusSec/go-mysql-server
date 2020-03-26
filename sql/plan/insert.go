@@ -1,8 +1,8 @@
 package plan
 
 import (
-	"github.com/src-d/go-mysql-server/sql"
-	"github.com/src-d/go-mysql-server/sql/expression"
+	"github.com/xsec-lab/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/sql/expression"
 	"gopkg.in/src-d/go-errors.v1"
 	"io"
 	"strings"
@@ -11,15 +11,12 @@ import (
 // ErrInsertIntoNotSupported is thrown when a table doesn't support inserts
 var ErrInsertIntoNotSupported = errors.NewKind("table doesn't support INSERT INTO")
 var ErrReplaceIntoNotSupported = errors.NewKind("table doesn't support REPLACE INTO")
-var ErrInsertIntoMismatchValueCount =
-	errors.NewKind("number of values does not match number of columns provided")
+var ErrInsertIntoMismatchValueCount = errors.NewKind("number of values does not match number of columns provided")
 var ErrInsertIntoUnsupportedValues = errors.NewKind("%T is unsupported for inserts")
 var ErrInsertIntoDuplicateColumn = errors.NewKind("duplicate column name %v")
 var ErrInsertIntoNonexistentColumn = errors.NewKind("invalid column name %v")
-var ErrInsertIntoNonNullableDefaultNullColumn =
-	errors.NewKind("column name '%v' is non-nullable but attempted to set default value of null")
-var ErrInsertIntoNonNullableProvidedNull =
-	errors.NewKind("column name '%v' is non-nullable but attempted to set a value of null")
+var ErrInsertIntoNonNullableDefaultNullColumn = errors.NewKind("column name '%v' is non-nullable but attempted to set default value of null")
+var ErrInsertIntoNonNullableProvidedNull = errors.NewKind("column name '%v' is non-nullable but attempted to set a value of null")
 
 // InsertInto is a node describing the insertion into some table.
 type InsertInto struct {

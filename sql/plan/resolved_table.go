@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/src-d/go-mysql-server/sql"
+	"github.com/xsec-lab/go-mysql-server/sql"
 )
 
 // ResolvedTable represents a resolved SQL Table.

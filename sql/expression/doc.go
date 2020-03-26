@@ -1,1 +1,1 @@
-package expression // import "github.com/src-d/go-mysql-server/sql/expression"
+package expression // import "github.com/xsec-lab/go-mysql-server/sql/expression"

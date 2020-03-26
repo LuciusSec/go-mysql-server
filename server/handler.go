@@ -10,16 +10,16 @@ import (
 	"sync"
 	"time"
 
-	sqle "github.com/src-d/go-mysql-server"
-	"github.com/src-d/go-mysql-server/auth"
-	"github.com/src-d/go-mysql-server/internal/sockstate"
-	"github.com/src-d/go-mysql-server/sql"
+	sqle "github.com/xsec-lab/go-mysql-server"
+	"github.com/xsec-lab/go-mysql-server/auth"
+	"github.com/xsec-lab/go-mysql-server/internal/sockstate"
+	"github.com/xsec-lab/go-mysql-server/sql"
 	"gopkg.in/src-d/go-errors.v1"
 
 	"github.com/sirupsen/logrus"
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/proto/query"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/proto/query"
 )
 
 var regKillCmd = regexp.MustCompile(`^kill (?:(query|connection) )?(\d+)$`)
