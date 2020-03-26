@@ -20,9 +20,13 @@ require (
 	github.com/spf13/cast v1.3.0
 	github.com/src-d/go-oniguruma v1.0.0
 	github.com/stretchr/testify v1.3.0
+	github.com/xsec-lab/vitess v3.0.0-rc.3+incompatible
+	github.com/youtube/vitess v2.1.1+incompatible // indirect
 	go.etcd.io/bbolt v1.3.2
 	google.golang.org/grpc v1.19.0 // indirect
 	gopkg.in/src-d/go-errors.v1 v1.0.0
 	gopkg.in/yaml.v2 v2.2.2
-	vitess.io/vitess v3.0.0-rc.3.0.20190602171040-12bfde34629c+incompatible
+    github.com/xsec-lab/vitess v3.0.1
 )
+
+go 1.13
