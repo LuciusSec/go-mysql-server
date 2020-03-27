@@ -131,6 +131,7 @@ github.com/uber/jaeger-lib v1.5.0 h1:OHbgr8l656Ub3Fw5k9SWnBfIEwvoHQ+W2y+Aa9D1Uyo
 github.com/uber/jaeger-lib v1.5.0/go.mod h1:ComeNDZlWwrWnDv8aPp0Ba6+uUTzImX/AauajbLI56U=
 github.com/ugorji/go/codec v0.0.0-20181204163529-d75b2dcb6bc8/go.mod h1:VFNgLljTbGfSG7qAOspJ7OScBnGdDN/yBr0sguwnwf0=
 github.com/xordataexchange/crypt v0.0.3-0.20170626215501-b2862e3d0a77/go.mod h1:aYKd//L2LvnjZzWKhF00oedf4jCCReLcmhLdhm1A27Q=
+github.com/xsec-lab/vitess v1.0.6/go.mod h1:ZSCS1iVcrCnW80O56kykZh643NvznGYdYDJ9BXA2cxI=
 github.com/xsec-lab/vitess v3.0.0-rc.3+incompatible h1:0Z26QlQV/5Qo90vACclhjYhKkKw738MR0hG7BWmaScQ=
 github.com/xsec-lab/vitess v3.0.0-rc.3+incompatible/go.mod h1:ZSCS1iVcrCnW80O56kykZh643NvznGYdYDJ9BXA2cxI=
 github.com/youtube/vitess v2.1.1+incompatible h1:SE+P7DNX/jw5RHFs5CHRhZQjq402EJFCD33JhzQMdDw=
