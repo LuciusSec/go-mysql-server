@@ -64,3 +64,6 @@ func createTestDatabase() *memory.Database {
 	table.Insert(ctx, sql.NewRow("Evil Bob", "evilbob@gmail.com", []string{"555-666-555", "666-666-666"}, time.Now()))
 	return db
 }
+
+
+
